@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{9518bd55-ba84-4ac5-8829-b7e9ba4869bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\net">
+      <UniqueIdentifier>{86be1370-6ae1-41b0-98b1-2e87aac7a580}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\broadcast.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\broad_define.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\broadcast.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\zhnet-1.0\lib\src\platform.c">
+      <Filter>lib\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\zhnet-1.0\lib\src\session.c">
+      <Filter>lib\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\zhnet-1.0\lib\src\socket.c">
+      <Filter>lib\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\zhnet-1.0\lib\src\udpprocess.c">
+      <Filter>lib\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\zhnet-1.0\lib\src\encrypt.c">
+      <Filter>lib\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\zhnet-1.0\lib\src\netlist.c">
+      <Filter>lib\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\zhnet-1.0\lib\src\packet.c">
+      <Filter>lib\net</Filter>
+    </ClCompile>
+    <ClCompile Include="broadcase_serv.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
